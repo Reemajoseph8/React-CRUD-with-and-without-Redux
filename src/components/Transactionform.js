@@ -11,7 +11,7 @@ class Transactionform extends Component {
             ifsc:'',
             bAccountName:'',
             Amount:''
-    }
+    };
 else
    return this.props.list[this.props.currentIndex]
 }

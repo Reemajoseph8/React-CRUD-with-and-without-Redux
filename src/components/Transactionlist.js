@@ -39,6 +39,10 @@ this.setState({ list,currentIndex:-1 })
     render() {
         return (
             <div>
+                <h5>Crud operation without Redux<br />
+                
+                    Refresh after submit,delete
+                </h5>
               <Transactionform 
               onAddorEdit={this.onAddorEdit}
               currentIndex={this.state.currentIndex}
